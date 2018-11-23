@@ -1,5 +1,5 @@
 import React from 'react';
-import Typist from 'react-typist';
+import Typist from 'react-typing-animation';
 
 export class Typewriter extends React.Component {
 	constructor(props) {
@@ -22,10 +22,10 @@ export class Typewriter extends React.Component {
 				<Typist
 					className="typist"
 					startDelay={this.state.counter === 0 ? 1500 : 0}
-					stdTypingDelay={50}
+					speed={75}
 					avgTypingDelay={120}
-					cursor={{ show: false }}
-					onTypingDone={this.handleDone}>
+					hideCursor={true}
+					onFinishedTyping={this.handleDone}>
 					{this.props.texts.map((text, i) => {
 						return (
 							<span key={`${text}-${i}`}>

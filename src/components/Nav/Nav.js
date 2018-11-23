@@ -31,8 +31,8 @@ export class Nav extends React.Component {
 			{ name: 'Home', to: '/' },
 			{ name: 'Story', to: '/story' },
 			{ name: 'Press', to: '/press' },
-			{ name: 'Shops', to: '/shops' },
-			{ name: 'Buy online', to: '/buy' }
+			{ name: 'Shops', to: '/shops' }
+			// { name: 'Buy online', to: '/buy' }
 		];
 		return (
 			<div className="grid">

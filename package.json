@@ -32,7 +32,7 @@
 		"react-ga": "^2.5.3",
 		"react-helmet": "^5.2.0",
 		"react-load-script": "^0.0.6",
-		"react-typist": "^2.0.4",
+		"react-typing-animation": "^1.4.0",
 		"react-visibility-sensor": "^5.0.2"
 	},
 	"lint-staged": {
