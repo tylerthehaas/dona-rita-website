@@ -42,7 +42,7 @@ function IndexPage({ data, location }) {
 			<Section>
 				<div className="grid">
 					<h1 className="col -block md-push-1 lg-push-2 title">
-						Dona Rita
+						Lorem Ipsum
 						<br />
 						Pão de Queijo.
 						<span className="title-desc">Brazilian cheese</span>
