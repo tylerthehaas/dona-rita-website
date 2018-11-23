@@ -30,6 +30,6 @@ export function TitleAndMetaTags({ url, pathname, title, description }) {
 TitleAndMetaTags.defaultProps = {
 	url: 'https://donarita.co.uk',
 	pathname: '',
-	title: 'Dona Rita',
+	title: 'Lorem Ipsum',
 	description: 'Brazilian cheese bread. Pão de Queijo.'
 };
