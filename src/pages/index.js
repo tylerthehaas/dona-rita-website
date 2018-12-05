@@ -11,11 +11,11 @@ import { Typewriter } from '../components/Typewriter/Typewriter';
 import { Banner } from '../components/Banner/Banner';
 import { FakeImg } from '../components/FakeImg/FakeImg';
 
-import img1 from '../images/img-1.jpg';
-import img2 from '../images/img-2.jpg';
-import ritaImg from '../images/rita.jpg';
-import bannerImg from '../images/banner.jpg';
 import bannerMobileImg from '../images/banner-mobile.jpg';
+import jerkChicken from '../images/jerk-chicken.jpg';
+import sauce1 from '../images/sauce-1.jpg';
+import jerkCookout from '../images/jerk_chicken_july_05.jpg';
+import jerkPork from '../images/bbqjerkchicgrill.jpg';
 
 function handleScriptLoad() {
 	if (typeof window !== `undefined` && window.netlifyIdentity) {
@@ -32,7 +32,6 @@ function handleScriptLoad() {
 
 function IndexPage({ data, location }) {
 	return (
-		// <Layout location={location}>
 		<div className="main">
 			<Script
 				url="https://identity.netlify.com/v1/netlify-identity-widget.js"
@@ -42,30 +41,30 @@ function IndexPage({ data, location }) {
 			<Section>
 				<div className="grid">
 					<h1 className="col -block md-push-1 lg-push-2 title">
-						Lorem Ipsum
+						Carolina Pacific Foods Inc.
 						<br />
-						Pão de Queijo.
-						<span className="title-desc">Brazilian cheese</span>
-						<Typewriter
-							className="title-desc"
-							texts={['bread.', 'buns.', 'balls.', 'rolls.', 'puffs.', 'goodness.']}
-						/>
+						<span className="title-desc">Caybana Moon Sauces</span>
+						<Typewriter className="title-desc" texts={['Exotic.', 'Bold.', 'Sauces.']} />
 					</h1>
 				</div>
 
 				<div className="grid">
 					<div className="col md-7 lg-5 md-push-1 lg-push-2 lg-push-3">
 						<p className="measure">
-							A proper Pão de Queijo is a two-bite business: crunchy on the outside and
-							fluffy on the inside. Made with cassava flour and fresh cheese, it’s a
-							farmer’s take on traditional European bread - without the wheat. Pão de
-							Queijo is a staple snack at most cafes, restaurants and dinner parties
-							across Brazil. It’s cheesily addictive and naturally gluten free.
+							Carolina Pacific Foods strives to bring you quality, authentic and exotic,
+							flavorful Caribbean and Latin American sauces under the brand name of
+							Caybana Moon. Our sauces are made with clean &amp; simple ingredients, and
+							have no artificial colors or flavors. Also, our sauces are gluten free,
+							vegan, contain no high fructose corn syrup, and no trans fats. Most of our
+							business is from happy and satisfied customers and their referrals. We would
+							welcome the opportunity to earn your trust and provide you with healthy and
+							flavorful sauces that easily transform meat, tofu or vegetables into
+							authentic gourmet meals!
 						</p>
-						<p className="measure">
+						{/* <p className="measure">
 							Try pairing it with a short black coffee São Paulo style, or spread thickly
 							with guava<sup className="-yellow">&#9679;</sup> jam for a sweet contrast.
-						</p>
+						</p> */}
 
 						<p>
 							<Link to="/story" className="button">
@@ -74,23 +73,23 @@ function IndexPage({ data, location }) {
 						</p>
 					</div>
 
-					<div className="col md-3 lg-2">
+					{/* <div className="col md-3 lg-2">
 						<p className="small faded footnote -yellow" data-id="&#9679;">
 							Guava jam is made with guava, a tropical fruit that’s sweet and aromatic.
 							It’s the most popular dip for Pão de Queijo. You can use your favourite
 							english jam as a substitute.
 						</p>
-					</div>
+					</div> */}
 				</div>
 
 				<div className="grid">
 					<div className="gallery fake-img-group">
 						<div className="col fluid md-7 md-push-1 lg-6 lg-push-2 fake-img-wrapper">
-							<FakeImg className="-three-x-two" img={img2} />
+							<FakeImg className="-three-x-two" img={jerkChicken} />
 						</div>
 
 						<div className="col fluid md-3 fake-img-wrapper">
-							<FakeImg className="-two-x-three" img={ritaImg} />
+							<FakeImg className="-two-x-three" img={sauce1} />
 						</div>
 					</div>
 				</div>
@@ -105,11 +104,11 @@ function IndexPage({ data, location }) {
 					<div className="col md-7 lg-5 md-push-1 lg-push-3">
 						<h3 className="measure-wider">Find a shop</h3>
 						<p className="measure-wider">
-							Buy our frozen bake-at-home packs from a few shops around London.
+							Buy our amazing sauces at your local retailers.
 						</p>
 						<p className="measure-wider">
 							<Link to="/stockists" className="button">
-								See stockists
+								See Stores
 							</Link>
 						</p>
 					</div>
@@ -123,13 +122,7 @@ function IndexPage({ data, location }) {
 
 				<div className="grid">
 					<div className="col fluid md-7 md-push-1 lg-6 lg-push-2">
-						<FakeImg className="-three-x-two" img={img1} />
-					</div>
-				</div>
-
-				<div className="grid">
-					<div className="col md-7 lg-5 md-push-1 lg-push-2">
-						<h2 className="h1">It’s pronounced pown-deh-kay-zho.</h2>
+						<FakeImg className="-three-x-two" img={jerkPork} />
 					</div>
 				</div>
 			</Section>
@@ -141,7 +134,7 @@ function IndexPage({ data, location }) {
 				soldout
 			/>
 
-			<Banner img={bannerImg} mobileImg={bannerMobileImg} />
+			<Banner img={jerkCookout} mobileImg={bannerMobileImg} />
 
 			<Section className="-salmon testimonial">
 				<div className="grid">
@@ -159,7 +152,6 @@ function IndexPage({ data, location }) {
 				<Contact />
 			</Section>
 		</div>
-		// </Layout>
 	);
 }
 

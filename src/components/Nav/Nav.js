@@ -30,7 +30,7 @@ export class Nav extends React.Component {
 		const links = [
 			{ name: 'Home', to: '/' },
 			{ name: 'Story', to: '/story' },
-			{ name: 'Press', to: '/press' },
+			{ name: 'Recipes', to: '/recipes' },
 			{ name: 'Shops', to: '/shops' }
 			// { name: 'Buy online', to: '/buy' }
 		];
