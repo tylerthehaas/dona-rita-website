@@ -4,7 +4,7 @@ import { TitleAndMetaTags } from '../components/TitleAndMetaTags/TitleAndMetaTag
 import { Section } from '../components/Section/Section';
 import { Contact } from '../components/Contact/Contact';
 import { Banner } from '../components/Banner/Banner';
-import { FakeImg } from '../components/FakeImg/FakeImg';
+// import { FakeImg } from '../components/FakeImg/FakeImg';
 
 import bbqImg from '../images/bbqcaribbean.jpg';
 import Recipe from '../components/Recipe/recipe';
