@@ -14,7 +14,7 @@ import { FakeImg } from '../components/FakeImg/FakeImg';
 import bannerMobileImg from '../images/banner-mobile.jpg';
 import jerkChicken from '../images/jerk-chicken.jpg';
 import sauce1 from '../images/sauce-1.jpg';
-import jerkCookout from '../images/jerk_chicken_july_05.jpg';
+import jerkCookout from '../images/Jerk_chicken_july_05.jpg';
 import jerkPork from '../images/bbqjerkchicgrill.jpg';
 
 function handleScriptLoad() {
