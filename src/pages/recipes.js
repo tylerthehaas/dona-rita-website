@@ -7,7 +7,7 @@ import { Banner } from '../components/Banner/Banner';
 // import { FakeImg } from '../components/FakeImg/FakeImg';
 
 import bbqImg from '../images/bbqcaribbean.jpg';
-import Recipe from '../components/Recipe/recipe';
+import Recipe from '../components/Recipe/Recipe';
 
 import jerkPork from '../images/bbqjerkchicgrill.jpg';
 import sauce from '../images/sauce-1.jpg';
