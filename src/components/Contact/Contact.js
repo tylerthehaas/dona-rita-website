@@ -9,14 +9,17 @@ export function Contact() {
 
 			<div className="grid">
 				<p className="col sm-12 md-5 lg-3 md-push-1 lg-push-3 contact">
-					Call Clara at
-					<span className="contact-phone">+44 (0) 79522 16979</span>
+					Call Emily at
+					<span className="contact-phone">NEED PHONE NUMBER</span>
+					<span>
+						ALSO NEED TO KNOW WHAT YOUR INSTAGRAM, TWITTER AND FACEBOOK ACCOUNTS ARE
+					</span>
 					<span className="contact-or">
 						<span>or</span>
 					</span>
 					drop us a line at
-					<a href="mailto:oi@donarita.co.uk" className="contact-link">
-						oi@donarita.co.uk
+					<a href="mailto:carolinapacific@protonmail.com" className="contact-link">
+						carolinapacific@protonmail.com
 					</a>
 				</p>
 

@@ -27,72 +27,72 @@ function StoryPage({ location }) {
 				</div>
 				<div className="grid">
 					<div className="col fluid md-7 md-push-1 lg-6 lg-push-2">
-						<FakeImg className="-square" img={storyImg} />
+						{/* <FakeImg className="-square" /> */}
+						<h1>
+							Emily: Some images of you making the sauce would be nice to have to place on
+							these pages.
+						</h1>
 					</div>
 				</div>
 				<div className="grid">
 					<div className="col md-7 lg-5 md-push-1 lg-push-3">
-						<h2>
-							Rita’s saudade<sup className="-yellow">&#9679;</sup>
-						</h2>
+						<h2>Our Love for Jerk Sauce</h2>
 					</div>
 
 					<div className="col md-7 lg-5 md-push-1 lg-push-3">
 						<p className="measure">
-							When Rita left the tropics for Norwich she missed Pão de Queijo so much she
-							started baking it from scratch. For the last 15 years she’s been perfecting
-							her secret family recipe. Now her little cheese bread is so delicious, some
-							people think it’s better than the original. We can’t wait for you to try it.
+							Our family has traveled throughout the Caribbean, for over 20 years, and
+							love to explore different cultures through their foods. We came across jerk
+							chicken on one of our earliest trips, and fell in love with it. Jerk sauce
+							in the Caribbean is like hot sauce or barbecue sauce in the United States.
+							Here in the United States, there are hot sauce and barbecue festivals and
+							contests, and in the Caribbean, there are jerk festivals and contests, where
+							jerk aficionados search for new, exciting jerk sauces. Jerk has a dedicated,
+							international following for sure.
 						</p>
 						<p>
 							<Link to="/ingredients" className="button">
-								Our ingredients
+								Recipes
 							</Link>
-						</p>
-					</div>
-
-					<div className="col md-3 lg-2">
-						<p className="small faded footnote -yellow" data-id="&#9679;">
-							Saudade is a feeling of nostalgia and homesickness characteristic of
-							Brazilian temperament. This portuguese word has no translation.
 						</p>
 					</div>
 				</div>
 			</Section>
 
-			<Banner img={fullWidthImageRollingImg} mobileImg={fullWidthImageRollingImg} />
+			<Banner img={null} mobileImg={null} />
 
 			<Section className="-white">
 				<div className="grid">
 					<div className="col md-push-1 lg-push-3">
-						<h2>Family business</h2>
+						<h2>A Labor of Love</h2>
 					</div>
 				</div>
 
 				<div className="grid">
 					<div className="col md-7 lg-5 md-push-1 lg-push-3">
 						<p className="measure">
-							Rita is already renowned for her Pão de Queijo with her family and friends.
+							During our travels, we tasted fiery hot jerk chicken, sweet and savory jerk
+							chicken, and every kind of jerk chicken on the jerk spectrum that you could
+							ever imagine. After searching many different Caribbean cultures for jerk
+							recipes, and comparing over 50 recipes, I made my first attempt at making my
+							own jerk sauce. I tried varying amounts of Caribbean spices and ingredients,
+							in an attempt to create the best jerk sauce out there. There was a lot of
+							trial and error, but I eventually got the recipe right!!! I’ve spent 15
+							years developing Caybana Moon Jerk Sauce and marinade! It has truly been a
+							labor of love.
 						</p>
 
 						<p className="measure">
-							And none more so than with Clara, her son Pedro’s girlfriend. Allergic to
-							gluten, Pão de Queijo has quickly become a staple in Clara’s diet, and she
-							continues to be in awe of the tasty and fluffy gluten free snacks.
-						</p>
-
-						<p className="measure">
-							A truly family enthused adventure, Rita’s dream is for Londoners to try her
-							delicious Brazilian bites, and with the help of Clara and Pedro, to share
-							them with everyone in town.
+							There are few sauces in the world with this much flavor, and the level of
+							heat varies from recipe to recipe. Here, at Caybana Moon, we have developed
+							a mild and a spicy Caribbean jerk sauce and marinade. It is the most
+							delicious sauce I have ever eaten! Our best advertising has been from our
+							happy and satisfied customers! We hope you will enjoy it as much as we do.
 						</p>
 					</div>
 
 					<div className="col fluid md-7 md-push-1 lg-6 lg-push-2">
-						<FakeImg className="-three-x-two" img={familyImg} />
-					</div>
-					<div className="col fluid md-7 md-push-1 lg-6 lg-push-2 small faded">
-						Family photo by <a href="https://munchies.com">Munchies</a>.
+						<FakeImg className="-three-x-two" img={null} />
 					</div>
 				</div>
 			</Section>

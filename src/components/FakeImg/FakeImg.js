@@ -22,7 +22,7 @@ export class FakeImg extends React.Component {
 					className={`fake-img ${this.props.className} ${
 						this.state.inView ? 'is-loaded' : ''
 					}`}
-					style={{ backgroundImage: `url(${this.props.img})` }}
+					style={{ backgroundImage: `url(${this.props.img})`, ...this.props.style }}
 				/>
 			</VisibilitySensor>
 		);

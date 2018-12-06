@@ -9,8 +9,8 @@ import { Banner } from '../../components/Banner/Banner';
 
 import { createGroupedArray } from '../../utils/createGroupedArray';
 
-import stockImg from '../../images/stock.jpg';
-import fullWidthImageTwoHandsImg from '../../images/full-width-image-twohands.jpg';
+import banner from '../../images/banner.jpg';
+import sauce from '../../images/sauce-1.jpg';
 
 function Shop({ className, shop }) {
 	return (
@@ -42,6 +42,7 @@ function ShopsPage({ data }) {
 			<TitleAndMetaTags title="Shops" pathname="shops" />
 			<Section>
 				<div className="grid">
+					<h1>Emily: I need a list of stores where people can buy your product</h1>
 					<h1 className="col -block md-push-1 lg-push-2 title">
 						Where to buy
 						<br />
@@ -66,17 +67,17 @@ function ShopsPage({ data }) {
 				))}
 			</Section>
 
-			<Section className="-blue center">
+			{/* <Section className="-blue center">
 				<div className="grid">
-					<h2>Can't find Dona Rita Pão de Queijo near you?</h2>
-					<p>Bring our Product Request Form to your favourite store.</p>
+					<h2>Can't find Caybana Moon Sauce?</h2>
+					<p>Bring our Product Request Form to your favorite store.</p>
 					<a className="button" href="./product-request-form.pdf" target="_blank">
 						Get request form
 					</a>
 				</div>
-			</Section>
+			</Section> */}
 
-			<Banner img={fullWidthImageTwoHandsImg} mobileImg={fullWidthImageTwoHandsImg} />
+			<Banner style={{ backgroundSize: 'contain' }} img={banner} mobileImg={banner} />
 
 			<Section className="-blue shops-interest">
 				<div className="grid">
@@ -86,18 +87,20 @@ function ShopsPage({ data }) {
 				<div className="grid">
 					<div className="col md-7 lg-5 md-push-1 lg-push-3">
 						<p className="measure-wider">
-							We're currently growing our network of retailers in London. If you're
-							interested in stocking our product at your store, please call Clara on
-							+447952216979 or email us at{' '}
-							<a href="mailto:oi@donarita.co.uk">oi@donarita.co.uk</a>. Distributors
-							welcome.
+							We're currently growing our network of retailers. If you're interested in
+							stocking our product at your store, please call Emily on NEED PHONE NUMBER
+							HERE or email us at{' '}
+							<a href="mailto:carolinapacific@protonmail.com">
+								carolinapacific@protonmail.com
+							</a>
+							. Distributors welcome.
 						</p>
 					</div>
 				</div>
 
 				<div className="grid">
 					<div className="col fluid md-7 md-push-1 lg-6 lg-push-2">
-						<FakeImg className="-three-x-two" img={stockImg} />
+						<FakeImg className="-three-x-two" img={sauce} />
 					</div>
 				</div>
 			</Section>

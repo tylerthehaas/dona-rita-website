@@ -61,10 +61,6 @@ function IndexPage({ data, location }) {
 							flavorful sauces that easily transform meat, tofu or vegetables into
 							authentic gourmet meals!
 						</p>
-						{/* <p className="measure">
-							Try pairing it with a short black coffee São Paulo style, or spread thickly
-							with guava<sup className="-yellow">&#9679;</sup> jam for a sweet contrast.
-						</p> */}
 
 						<p>
 							<Link to="/story" className="button">
@@ -72,14 +68,6 @@ function IndexPage({ data, location }) {
 							</Link>
 						</p>
 					</div>
-
-					{/* <div className="col md-3 lg-2">
-						<p className="small faded footnote -yellow" data-id="&#9679;">
-							Guava jam is made with guava, a tropical fruit that’s sweet and aromatic.
-							It’s the most popular dip for Pão de Queijo. You can use your favourite
-							english jam as a substitute.
-						</p>
-					</div> */}
 				</div>
 
 				<div className="grid">
@@ -112,12 +100,6 @@ function IndexPage({ data, location }) {
 							</Link>
 						</p>
 					</div>
-
-					{/* <div className="col md-3 lg-2">
-		<h3>Find a shop</h3>
-		<p className="small">Buy our frozen bake-at-home packs from a few shops around London.</p>
-		<p style="margin-top: 30px;"><a href="/stockists" className="button">See stockists</a></p>
-	</div> */}
 				</div>
 
 				<div className="grid">
@@ -127,23 +109,16 @@ function IndexPage({ data, location }) {
 				</div>
 			</Section>
 
-			<Product
-				postcodes={data.allPostcodesJson.edges[0].node.allowed}
-				stockists={data.allMarkdownRemark.edges}
-				location={location}
-				soldout
-			/>
-
 			<Banner img={jerkCookout} mobileImg={bannerMobileImg} />
 
 			<Section className="-salmon testimonial">
 				<div className="grid">
 					<blockquote className="col md-9 md-push-1 lg-push-2">
 						<h3 className="h1">
-							A crunchy outside giving way to a cloud-like interior. Sounds ace, right?
-							Right.
+							Emily: a review or some other wording that you really want to get noticed
+							can go here.
 						</h3>
-						<p>Tom Howells – TimeOut London</p>
+						<p>Tyler Haas – Haas Development</p>
 					</blockquote>
 				</div>
 			</Section>
