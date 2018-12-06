@@ -5,7 +5,7 @@ import Script from 'react-load-script';
 // import { Layout } from '../components/Layout/Layout';
 import { TitleAndMetaTags } from '../components/TitleAndMetaTags/TitleAndMetaTags';
 import { Section } from '../components/Section/Section';
-import { Product } from '../components/Product/Product';
+// import { Product } from '../components/Product/Product';
 import { Contact } from '../components/Contact/Contact';
 import { Typewriter } from '../components/Typewriter/Typewriter';
 import { Banner } from '../components/Banner/Banner';
