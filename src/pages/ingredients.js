@@ -5,8 +5,6 @@ import { Section } from '../components/Section/Section';
 import { Contact } from '../components/Contact/Contact';
 import { FakeImg } from '../components/FakeImg/FakeImg';
 
-import ingredientsImg from '../images/ingredients.jpg';
-
 function IngredientsPage() {
 	return (
 		<div className="main">
@@ -42,7 +40,7 @@ function IngredientsPage() {
 
 				<div className="grid">
 					<div className="col fluid md-7 md-push-1 lg-6 lg-push-2">
-						<FakeImg className="-three-x-two" img={ingredientsImg} />
+						<FakeImg className="-three-x-two" img={null} />
 					</div>
 				</div>
 			</Section>

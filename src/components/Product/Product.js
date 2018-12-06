@@ -7,8 +7,6 @@ import { PostcodeValidator } from '../PostcodeValidator/PostcodeValidator';
 import { ShopRecommendation } from '../ShopRecommendation/ShopRecommendation';
 import { ProspectSignupForm } from '../Forms/ProspectSignupForm';
 
-import productImg from '../../images/product.png';
-
 export class Product extends React.Component {
 	constructor(props) {
 		super(props);
@@ -75,7 +73,7 @@ export class Product extends React.Component {
 			<div className="section product-section">
 				<div className="grid">
 					<div className="col sm-11 sm-push-1 md-6 md-push-0 lg-5 lg-push-1">
-						<img src={productImg} />
+						<img src={null} />
 					</div>
 
 					<div className="col fluid md-6 lg-5">

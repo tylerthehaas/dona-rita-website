@@ -7,7 +7,6 @@ import { Contact } from '../components/Contact/Contact';
 import { Product } from '../components/Product/Product';
 import { Banner } from '../components/Banner/Banner';
 
-import bannerMobileImg from '../images/banner-mobile.jpg';
 import bannerImg from '../images/banner.jpg';
 
 function BuyPage({ data, location }) {
@@ -22,7 +21,7 @@ function BuyPage({ data, location }) {
 				soldout
 			/>
 
-			<Banner img={bannerImg} mobileImg={bannerMobileImg} />
+			<Banner img={bannerImg} mobileImg={bannerImg} />
 
 			<Section>
 				<Contact />

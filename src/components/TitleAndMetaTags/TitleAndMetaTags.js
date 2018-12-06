@@ -9,10 +9,7 @@ export function TitleAndMetaTags({ url, pathname, title, description }) {
 			</title>
 
 			<meta property="og:url" content={`${url}/${pathname}`} />
-			<meta property="og:image" content={`${url}/social/hero-1.jpg`} />
-			<meta property="og:image" content={`${url}/social/hero-2.jpg`} />
-			<meta property="og:image" content={`${url}/social/hero-3.jpg`} />
-			<meta property="og:image" content={`${url}/social/hero-4.jpg`} />
+			<meta property="og:image" content={`${url}/social/boat.jpg`} />
 			<meta property="og:title" content={title} />
 			<meta property="og:description" content={description} />
 
@@ -30,6 +27,6 @@ export function TitleAndMetaTags({ url, pathname, title, description }) {
 TitleAndMetaTags.defaultProps = {
 	url: 'https://donarita.co.uk',
 	pathname: '',
-	title: 'Lorem Ipsum',
-	description: 'Brazilian cheese bread. Pão de Queijo.'
+	title: 'Caybana Moon',
+	description: 'Exotic. Bold. Sauces.'
 };
