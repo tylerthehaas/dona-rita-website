@@ -17,11 +17,10 @@ function Shop({ className, shop }) {
 		<div className={`col sm-10 md-3 ${className}`}>
 			<div>
 				<h3>{shop.name}</h3>
-				<h4>{shop.area}</h4>
 				<address>
 					{shop.address}
 					<br />
-					{shop.postcode}
+					{shop.area} {shop.postcode}
 				</address>
 				<a
 					href={`https://www.google.com/maps/dir/?api=1&destination=${shop.postcode}`}
@@ -42,7 +41,6 @@ function ShopsPage({ data }) {
 			<TitleAndMetaTags title="Shops" pathname="shops" />
 			<Section>
 				<div className="grid">
-					<h1>Emily: I need a list of stores where people can buy your product</h1>
 					<h1 className="col -block md-push-1 lg-push-2 title">
 						Where to buy
 						<br />
@@ -115,7 +113,7 @@ export default ShopsPage;
 // eslint-disable-next-line no-undef
 export const pageQuery = graphql`
 	query ShopsQuery {
-		allMarkdownRemark(sort: { order: ASC, fields: [frontmatter___outcode] }) {
+		allMarkdownRemark(sort: { order: ASC, fields: [frontmatter___postcode] }) {
 			edges {
 				node {
 					frontmatter {
@@ -124,7 +122,6 @@ export const pageQuery = graphql`
 						area
 						address
 						postcode
-						outcode
 					}
 				}
 			}

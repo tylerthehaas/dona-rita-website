@@ -144,7 +144,6 @@ export const pageQuery = graphql`
 						name
 						address
 						postcode
-						outcode
 					}
 				}
 			}
