@@ -37,7 +37,7 @@ function ShopsPage({ data }) {
 	const groupedData = createGroupedArray(data.allMarkdownRemark.edges, 3);
 
 	return (
-		<div className="main">
+		<div className="main" style={{ marginBottom: '24px' }}>
 			<TitleAndMetaTags title="Shops" pathname="shops" />
 			<Section>
 				<div className="grid">
