@@ -108,18 +108,6 @@ function IndexPage({ data, location }) {
 
 			<Banner img={jerkCookout} mobileImg={jerkCookout} />
 
-			<Section className="-salmon testimonial">
-				<div className="grid">
-					<blockquote className="col md-9 md-push-1 lg-push-2">
-						<h3 className="h1">
-							Emily: a review or some other wording that you really want to get noticed
-							can go here.
-						</h3>
-						<p>Tyler Haas – Haas Development</p>
-					</blockquote>
-				</div>
-			</Section>
-
 			<Section>
 				<Contact />
 			</Section>

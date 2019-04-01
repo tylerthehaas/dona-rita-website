@@ -30,15 +30,6 @@ function PressPage() {
 
 			<Banner img={bbqImg} mobileImg={bbqImg} />
 
-			<div className="section -salmon testimonial">
-				<div className="grid">
-					<blockquote className="col md-9 md-push-1 lg-push-2">
-						<h3 className="h1">Emily: Find me a great review to put here.</h3>
-						<p>Tyler Haas — Haas Development</p>
-					</blockquote>
-				</div>
-			</div>
-
 			<Section>
 				<Recipe title="Jerk Chicken" img={sauce}>
 					<p>

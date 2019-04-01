@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'gatsby';
 
 // import { Layout } from '../components/Layout/Layout';
+import bbqChicken from '../images/20180702_211656.jpg';
 import { TitleAndMetaTags } from '../components/TitleAndMetaTags/TitleAndMetaTags';
 import { Section } from '../components/Section/Section';
 import { Contact } from '../components/Contact/Contact';
@@ -27,11 +28,11 @@ function StoryPage({ location }) {
 				</div>
 				<div className="grid">
 					<div className="col fluid md-7 md-push-1 lg-6 lg-push-2">
-						{/* <FakeImg className="-square" /> */}
-						<h1>
-							Emily: Some images of you making the sauce would be nice to have to place on
-							these pages.
-						</h1>
+						<FakeImg
+							className="-square"
+							img={bbqChicken}
+							style={{ transform: 'rotate(90deg)' }}
+						/>
 					</div>
 				</div>
 				<div className="grid">
