@@ -65,16 +65,6 @@ function ShopsPage({ data }) {
 				))}
 			</Section>
 
-			{/* <Section className="-blue center">
-				<div className="grid">
-					<h2>Can't find Caybana Moon Sauce?</h2>
-					<p>Bring our Product Request Form to your favorite store.</p>
-					<a className="button" href="./product-request-form.pdf" target="_blank">
-						Get request form
-					</a>
-				</div>
-			</Section> */}
-
 			<Banner style={{ backgroundSize: 'contain' }} img={banner} mobileImg={banner} />
 
 			<Section className="-blue shops-interest">
@@ -86,8 +76,7 @@ function ShopsPage({ data }) {
 					<div className="col md-7 lg-5 md-push-1 lg-push-3">
 						<p className="measure-wider">
 							We're currently growing our network of retailers. If you're interested in
-							stocking our product at your store, please call Emily on NEED PHONE NUMBER
-							HERE or email us at{' '}
+							stocking our product at your store, please email us at
 							<a href="mailto:carolinapacific@protonmail.com">
 								carolinapacific@protonmail.com
 							</a>

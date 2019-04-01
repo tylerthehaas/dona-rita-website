@@ -54,8 +54,6 @@ function StoryPage() {
 				</div>
 			</Section>
 
-			<Banner img={null} mobileImg={null} />
-
 			<Section className="-white">
 				<div className="grid">
 					<div className="col md-push-1 lg-push-3">
@@ -84,10 +82,6 @@ function StoryPage() {
 							delicious sauce I have ever eaten! Our best advertising has been from our
 							happy and satisfied customers! We hope you will enjoy it as much as we do.
 						</p>
-					</div>
-
-					<div className="col fluid md-7 md-push-1 lg-6 lg-push-2">
-						<FakeImg className="-three-x-two" img={null} />
 					</div>
 				</div>
 			</Section>
