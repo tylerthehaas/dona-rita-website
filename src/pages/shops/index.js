@@ -5,11 +5,9 @@ import { TitleAndMetaTags } from '../../components/TitleAndMetaTags/TitleAndMeta
 import { Section } from '../../components/Section/Section';
 import { Contact } from '../../components/Contact/Contact';
 import { FakeImg } from '../../components/FakeImg/FakeImg';
-import { Banner } from '../../components/Banner/Banner';
 
 import { createGroupedArray } from '../../utils/createGroupedArray';
 
-import banner from '../../images/banner.jpg';
 import sauce from '../../images/sauce-1.jpg';
 
 function Shop({ className, shop }) {

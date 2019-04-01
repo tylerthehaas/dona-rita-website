@@ -6,7 +6,6 @@ import { TitleAndMetaTags } from '../components/TitleAndMetaTags/TitleAndMetaTag
 import { Section } from '../components/Section/Section';
 import { Contact } from '../components/Contact/Contact';
 import { FakeImg } from '../components/FakeImg/FakeImg';
-import { Banner } from '../components/Banner/Banner';
 
 function StoryPage() {
 	return (
