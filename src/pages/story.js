@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from 'gatsby';
 
-// import { Layout } from '../components/Layout/Layout';
 import bbqChicken from '../images/20180702_211656.jpg';
 import { TitleAndMetaTags } from '../components/TitleAndMetaTags/TitleAndMetaTags';
 import { Section } from '../components/Section/Section';
@@ -9,13 +8,8 @@ import { Contact } from '../components/Contact/Contact';
 import { FakeImg } from '../components/FakeImg/FakeImg';
 import { Banner } from '../components/Banner/Banner';
 
-// import fullWidthImageRollingImg from '../images/full-width-image-rolling.jpg';
-// import storyImg from '../images/story.jpg';
-// import familyImg from '../images/family.jpg';
-
-function StoryPage({ location }) {
+function StoryPage() {
 	return (
-		// <Layout location={location}>
 		<div className="main">
 			<TitleAndMetaTags title="Story" pathname="story" />
 			<Section>
@@ -100,7 +94,6 @@ function StoryPage({ location }) {
 
 			<Contact />
 		</div>
-		// </Layout>
 	);
 }
 
