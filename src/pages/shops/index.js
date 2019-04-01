@@ -45,9 +45,9 @@ function ShopsPage({ data }) {
 						Where to buy
 						<br />
 						<span className="salmon">
-							Bake-at-home
+							our delicious
 							<br />
-							frozen packs.
+							sauces.
 						</span>
 					</h1>
 				</div>
@@ -64,8 +64,6 @@ function ShopsPage({ data }) {
 					</div>
 				))}
 			</Section>
-
-			<Banner style={{ backgroundSize: 'contain' }} img={banner} mobileImg={banner} />
 
 			<Section className="-blue shops-interest">
 				<div className="grid">
