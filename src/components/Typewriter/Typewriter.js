@@ -1,44 +1,45 @@
-import React from 'react';
-import Typist from 'react-typing-animation';
+import React from "react";
+import Typist from "react-typing-animation";
 
 export class Typewriter extends React.Component {
-	constructor(props) {
-		super(props);
+  constructor(props) {
+    super(props);
 
-		this.state = { typing: true, counter: 0 };
-	}
+    this.state = { typing: true, counter: 0 };
+  }
 
-	handleDone = () => {
-		this.setState({ typing: false }, () => {
-			this.setState(prevState => {
-				return { typing: true, counter: prevState.counter + 1 };
-			});
-		});
-	};
+  handleDone = () => {
+    this.setState({ typing: false }, () => {
+      this.setState(prevState => {
+        return { typing: true, counter: prevState.counter + 1 };
+      });
+    });
+  };
 
-	render() {
-		const typewriter = (
-			<span className={this.props.className}>
-				<Typist
-					className="typist"
-					startDelay={this.state.counter === 0 ? 1500 : 0}
-					speed={75}
-					avgTypingDelay={120}
-					hideCursor={true}
-					onFinishedTyping={this.handleDone}>
-					{this.props.texts.map((text, i) => {
-						return (
-							<span key={`${text}-${i}`}>
-								{text}
-								<Typist.Backspace count={text.length + 1} delay={750} />
-								<Typist.Delay ms={250} />
-							</span>
-						);
-					})}
-				</Typist>{' '}
-			</span>
-		);
+  render() {
+    const typewriter = (
+      <span className={this.props.className}>
+        <Typist
+          className="typist"
+          startDelay={this.state.counter === 0 ? 1500 : 0}
+          speed={75}
+          avgTypingDelay={120}
+          hideCursor={true}
+          onFinishedTyping={this.handleDone}
+        >
+          {this.props.texts.map((text, i) => {
+            return (
+              <span key={`${text}-${i}`}>
+                {text}
+                <Typist.Backspace count={text.length + 1} delay={750} />
+                <Typist.Delay ms={250} />
+              </span>
+            );
+          })}
+        </Typist>{" "}
+      </span>
+    );
 
-		return this.state.typing ? typewriter : null;
-	}
+    return this.state.typing ? typewriter : null;
+  }
 }
