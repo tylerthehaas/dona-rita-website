@@ -9,8 +9,9 @@ import { Typewriter } from '../components/Typewriter/Typewriter';
 import { Banner } from '../components/Banner/Banner';
 import { FakeImg } from '../components/FakeImg/FakeImg';
 
-import jerkChicken from '../images/jerk-chicken.jpg';
-import sauce1 from '../images/sauce-1.jpg';
+import pulledJerkChicken from '../images/pulled-jerk-chicken.jpg';
+import sauceMild from '../images/sauce-mild.jpg';
+import sauceSpicy from '../images/sauce-spicy.jpg';
 import jerkCookout from '../images/Jerk_chicken_july_05.jpg';
 import jerkPork from '../images/bbqjerkchicgrill.jpg';
 import homeBanner from '../images/banner.jpg';
@@ -47,7 +48,10 @@ function IndexPage({ data, location }) {
 						Carolina Pacific Foods Inc.
 						<br />
 						<span className="title-desc">Caybana Moon Sauces</span>
-						<Typewriter className="title-desc" texts={['Exotic.', 'Bold.', 'Sauces.']} />
+						<Typewriter
+							className="title-desc animate"
+							texts={['Exotic!', 'Bold!', 'Sauces!']}
+						/>
 					</h1>
 				</div>
 
@@ -75,12 +79,15 @@ function IndexPage({ data, location }) {
 
 				<div className="grid">
 					<div className="gallery fake-img-group">
-						<div className="col fluid md-7 md-push-1 lg-6 lg-push-2 fake-img-wrapper">
-							<FakeImg className="-three-x-two" img={jerkChicken} />
+						<div className="col fluid md-7 lg-6 fake-img-wrapper">
+							<FakeImg className="-three-x-two" img={pulledJerkChicken} />
 						</div>
 
 						<div className="col fluid md-3 fake-img-wrapper">
-							<FakeImg className="-two-x-three" img={sauce1} />
+							<FakeImg className="-two-x-three" img={sauceMild} />
+						</div>
+						<div className="col fluid md-3 fake-img-wrapper">
+							<FakeImg className="-two-x-three" img={sauceSpicy} />
 						</div>
 					</div>
 				</div>
@@ -88,15 +95,13 @@ function IndexPage({ data, location }) {
 
 			<Section className="-blue">
 				<div className="grid">
-					<h1 className="col md-push-1 lg-push-2">Eat it</h1>
+					<h1 className="col md-push-1 lg-push-2">Craving Exotic and Bold Sauces?</h1>
 				</div>
 
 				<div className="grid">
 					<div className="col md-7 lg-5 md-push-1 lg-push-3">
-						<h3 className="measure-wider">Find a shop</h3>
-						<p className="measure-wider">
-							Buy our amazing sauces at your local retailers.
-						</p>
+						<h3 className="measure-wider">Where to Buy!</h3>
+						<p className="measure-wider">Buy our amazing sauces at these retailers!</p>
 						<p className="measure-wider">
 							<Link to="/stockists" className="button">
 								See Stores

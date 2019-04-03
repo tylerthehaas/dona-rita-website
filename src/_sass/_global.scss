@@ -266,7 +266,12 @@ a {
 
 .title-desc {
 	display: block;
-	color: $colorSalmon;
+	color: $colorPurple;
+	text-align: center;
+
+	&.animate {
+		color: $colorRed;
+	}
 
 	&::selection {
 		background-color: black;
@@ -489,10 +494,17 @@ img {
 	}
 }
 
-.contact-link {
+.contact-link, .contact-address {
 	display: block;
 	font-size: 20px;
+}
+ 
+.contact-link {
 	line-height: 32px;
+}
+
+.contact-address {
+	line-height: 20px;
 }
 
 // UTILITIES

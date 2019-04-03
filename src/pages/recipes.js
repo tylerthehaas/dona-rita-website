@@ -10,7 +10,7 @@ import Recipe from '../components/Recipe/Recipe';
 import bbqImg from '../images/bbqcaribbean.jpg';
 import jerkPork from '../images/bbqjerkchicgrill.jpg';
 import jerkRibs from '../images/jerk-ribs.jpg';
-import sauce from '../images/sauce-1.jpg';
+import sauce from '../images/sauce-mild.jpg';
 import pulledJerkChicken from '../images/pulled-jerk-chicken.jpg';
 import grillAssortment from '../images/grill-assortment.jpg';
 

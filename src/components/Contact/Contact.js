@@ -4,15 +4,25 @@ export function Contact() {
 	return (
 		<div>
 			<div className="grid">
-				<h1 className="col md-push-1 lg-push-2">Contact us</h1>
+				<h3 className="col md-push-1 lg-push-2">Contact us</h3>
 			</div>
 
 			<div className="grid">
 				<p className="col sm-12 md-5 lg-3 md-push-1 lg-push-3 contact">
 					drop us a line at
-					<a href="mailto:carolinapacific@protonmail.com" className="contact-link">
-						carolinapacific@protonmail.com
+					<a href="mailto:carolinapacificfoods@protonmail.com" className="contact-link">
+						carolinapacificfoods@protonmail.com
 					</a>
+					<span className="contact-or">
+						<span>or</span>
+					</span>
+					write us at
+					<address className="contact">
+						<span className="contact-address">Carolina Pacific Foods, Inc.</span>
+						1706 Front Street #724
+						<br />
+						Lynden, WA 98264
+					</address>
 				</p>
 
 				<div className="col fluid md-3 lg-2 md-push-1 lg-push-2 button-group">

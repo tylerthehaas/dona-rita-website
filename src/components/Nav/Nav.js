@@ -15,12 +15,7 @@ export class Nav extends React.Component {
 
 	renderLinks = (links, onClick) => {
 		return links.map(link => (
-			<Link
-				key={link.to}
-				className={link.to === '/buy' ? 'button' : ''}
-				to={link.to}
-				title={link.name}
-				onClick={onClick}>
+			<Link key={link.to} to={link.to} title={link.name} onClick={onClick}>
 				{link.name}
 			</Link>
 		));
@@ -29,10 +24,11 @@ export class Nav extends React.Component {
 	render() {
 		const links = [
 			{ name: 'Home', to: '/' },
-			{ name: 'Story', to: '/story' },
+			{ name: "What's Jerk?", to: '/whats-jerk' },
+			{ name: 'About', to: '/about' },
 			{ name: 'Recipes', to: '/recipes' },
-			{ name: 'Shops', to: '/shops' }
-			// { name: 'Buy online', to: '/buy' }
+			{ name: 'Ingredients', to: '/ingredients' },
+			{ name: 'Buy', to: '/buy' }
 		];
 		return (
 			<div className="grid">
@@ -56,7 +52,7 @@ export class Nav extends React.Component {
 					</a>
 					{this.renderLinks(links, this.handleClose)}
 				</nav>
-				<nav className="main-nav -desktop col md-9 md-push-2">
+				<nav className="main-nav -desktop col md-10 md-push-1">
 					{this.renderLinks(links)}
 				</nav>
 			</div>

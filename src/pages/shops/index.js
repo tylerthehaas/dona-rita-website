@@ -8,7 +8,7 @@ import { FakeImg } from '../../components/FakeImg/FakeImg';
 
 import { createGroupedArray } from '../../utils/createGroupedArray';
 
-import sauce from '../../images/sauce-1.jpg';
+import sauce from '../../images/sauce-mild.jpg';
 
 function Shop({ className, shop }) {
 	return (
