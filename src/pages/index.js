@@ -13,6 +13,7 @@ import jerkChicken from '../images/jerk-chicken.jpg';
 import sauce1 from '../images/sauce-1.jpg';
 import jerkCookout from '../images/Jerk_chicken_july_05.jpg';
 import jerkPork from '../images/bbqjerkchicgrill.jpg';
+import homeBanner from '../images/banner.jpg';
 
 function handleScriptLoad() {
 	if (typeof window !== `undefined` && window.netlifyIdentity) {
@@ -35,6 +36,11 @@ function IndexPage({ data, location }) {
 				onLoad={() => handleScriptLoad()}
 			/>
 			<TitleAndMetaTags />
+			<Banner
+				style={{ backgroundSize: '100%', padding: '12.75% 0' }}
+				img={homeBanner}
+				mobileImg={homeBanner}
+			/>
 			<Section>
 				<div className="grid">
 					<h1 className="col -block md-push-1 lg-push-2 title">
