@@ -20,6 +20,16 @@ function Shop({ className, shop }) {
           <br />
           {shop.area} {shop.postcode}
         </address>
+        {shop.url && (
+          <a
+            className="faded"
+            href={shop.url}
+            target="_blank"
+            style={{ display: "block" }}
+          >
+            {shop.webpage}
+          </a>
+        )}
         <a
           href={`https://www.google.com/maps/dir/?api=1&destination=${
             shop.postcode
@@ -199,11 +209,13 @@ export const pageQuery = graphql`
       edges {
         node {
           frontmatter {
-            title
-            name
-            area
             address
+            area
+            name
             postcode
+            url
+            title
+            webpage
           }
         }
       }
