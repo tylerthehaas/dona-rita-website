@@ -78,7 +78,7 @@ function ShopsPage({ data }) {
             <p className="measure-wider">
               We're currently growing our network of retailers. If you're
               interested in stocking our product at your store, please email us
-              at
+              at{" "}
               <a href="mailto:carolinapacific@protonmail.com">
                 carolinapacific@protonmail.com
               </a>

@@ -29,7 +29,7 @@ function StoryPage() {
             <h2>Our Love for Jerk Sauce</h2>
           </div>
 
-          <div className="col md-7 lg-5 md-push-1 lg-push-3">
+          <div className="col md-7 lg-6 md-push-1 lg-push-2">
             <p className="measure">
               Our family has traveled throughout the Caribbean, for over 20
               years, and love to explore different cultures through their foods.
