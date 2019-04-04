@@ -154,10 +154,10 @@ h3,
 }
 
 p {
-  margin-bottom: 20px;
+  margin: 20px auto;
 
   @include medium {
-    margin-bottom: 40px;
+    margin: 40px auto;
   }
 }
 

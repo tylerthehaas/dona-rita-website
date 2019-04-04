@@ -7,6 +7,7 @@ import { Banner } from "../components/Banner/Banner";
 
 import Recipe from "../components/Recipe/Recipe";
 
+import akemyMory from "../images/akemy-mory.jpg";
 import bbqImg from "../images/bbqcaribbean.jpg";
 import jerkPork from "../images/bbqjerkchicgrill.jpg";
 import jerkRibs from "../images/jerk-ribs.jpg";
@@ -228,7 +229,67 @@ function PressPage() {
           </p>
         </Recipe>
       </Section>
-      <Contact />
+      <Section className="-blue">
+        <div className="grid">
+          <h1 className="col -block md-push-1 lg-push-2 title">
+            Great Jerk Sides!
+          </h1>
+        </div>
+        <Recipe
+          title="Coconut Ginger Jasmine Rice with Cilantro and Lime"
+          img={akemyMory}
+        >
+          <p>
+            This gingery citrus rice dish is a great side for your jerk. We also
+            highly recommend serving some corn on the cob too! Lot's of our
+            customers serve some spicy black beans or pinto beans on the side,
+            and sauteed greens as well.
+          </p>
+          <div>
+            <p className="bold">Ingredients:</p>
+            <ul>
+              <li>1 cup white Jasmine rice</li>
+              <li>2 Tbsp coconut oil</li>
+              <li>1 or 1 1/2 inch piece of ginger, peeled and sliced thinly</li>
+              <li>1 cup water</li>
+              <li>
+                3/4 cup canned coconut milk (I recommend the Aroy-d brand of
+                Coconut Milk)
+              </li>
+              <li>
+                2 medium limes, zest and juice from both (can adjust to taste)
+              </li>
+              <li>1 tsp pink sea salt</li>
+              <li>Fresh cilantro, chopped finely</li>
+            </ul>
+            <p className="bold">Directions:</p>
+            <p>
+              Rinse rice thoroughly in a fine mesh strainer until water runs
+              clear. In a large saucepan with tight fitting lid, add the coconut
+              oil, and saute the ginger, stirring frequently until fragrant but
+              not browned. Stir in the rice, lime juice, lime zest, water,
+              coconut milk and salt, then bring to a boil. Cover, and cook on
+              very low heat until the rice absorbs all the liquid. This should
+              take about 15 to 20 minutes. Cooking times vary depending on your
+              location. Remove and discard the ginger, then let the rice sit
+              covered for 5-10 minutes. Fluff the rice with a fork. Season with
+              more salt if needed. When serving the rice, top with fresh,
+              chopped cilantro.
+            </p>
+            <p className="bold">Cooking Tips!</p>
+            <p>Don’t uncover the pan or stir the rice during cooking.</p>
+            <p>
+              If your rice is done before you’re ready to serve it, place a
+              folded clean towel over the pan, and put the cover back on it. The
+              towel will absorb excess moisture and condensation, helping
+              prevent mushy rice.
+            </p>
+          </div>
+        </Recipe>
+      </Section>
+      <Section className="-white">
+        <Contact />
+      </Section>
     </div>
   );
 }
