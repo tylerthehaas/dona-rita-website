@@ -56,7 +56,7 @@ function IndexPage({ data, location }) {
         </div>
 
         <div className="grid">
-          <div className="col md-7 lg-5 md-push-1 lg-push-2 lg-push-3">
+          <div className="col md-10 md-push-1 lg-10 lg-push-2">
             <p className="measure">
               Carolina Pacific Foods strives to bring you quality, authentic and
               exotic, flavorful Caribbean and Latin American sauces under the
@@ -80,18 +80,18 @@ function IndexPage({ data, location }) {
 
         <div className="grid">
           <div className="gallery fake-img-group">
-            <div className="col fluid md-7 lg-6 fake-img-wrapper">
+            <div className="col fluid md-7 lg-6 lg-push-1 fake-img-wrapper">
               <FakeImg className="-three-x-two" img={pulledJerkChicken} />
             </div>
 
-            <div className="col fluid md-3 fake-img-wrapper">
+            <div className="col fluid md-3 fake-img-wrapper narrow">
               <FakeImg
                 className="-two-x-three"
                 img={sauceMild}
                 style={{ backgroundSize: "contain" }}
               />
             </div>
-            <div className="col fluid md-3 fake-img-wrapper">
+            <div className="col fluid md-3 fake-img-wrapper narrow">
               <FakeImg
                 className="-two-x-three"
                 img={sauceSpicy}
@@ -124,8 +124,26 @@ function IndexPage({ data, location }) {
         </div>
 
         <div className="grid">
-          <div className="col fluid md-7 md-push-1 lg-6 lg-push-2">
-            <FakeImg className="-three-x-two" img={jerkPork} />
+          <div className="col fluid md-10 md-push-1 lg-10 lg-push-1">
+            <blockquote>
+              I was having some friends over for dinner, which usually gets
+              complicated because I have friends who are meat-eaters,
+              vegetarians, vegans, and pescatarians. It’s a lot of work to cook
+              separate foods for all these special diets, but then, I came
+              across Caybana Moon Jerk Sauce and Marinade. I followed some of
+              their recipes on their Web site, carolinapacificfoods.com, and my
+              dinner party was so much easier than in the past. I simply got out
+              a bunch of zip-top bags, and put either the mild or spicy Caybana
+              Moon Jerk Sauce and Marinade into each bag. Then, I put chicken
+              pieces in one bag, tofu and jackfruit in another, and shrimp,
+              scallops and fish in the third bag. After marinating them for a
+              little while, I baked them in the oven. I served a big tossed
+              salad, which everyone could eat, and served a fresh fruit platter
+              for dessert. Everybody raved about the Caybana Moon Jerk Sauce and
+              Marinade, whether it was the mild or spicy, and for the first
+              time, cooking for all these friends with different diets was easy!
+              <span> &#8212; Diane A, Malibu, CA</span>
+            </blockquote>
           </div>
         </div>
       </Section>
