@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "gatsby";
 
 import bbqChicken from "../images/bbqjerkchic-waiter.jpg";
 import { TitleAndMetaTags } from "../components/TitleAndMetaTags/TitleAndMetaTags";
