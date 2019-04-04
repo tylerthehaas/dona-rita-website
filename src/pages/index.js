@@ -13,7 +13,6 @@ import pulledJerkChicken from "../images/pulled-jerk-chicken.jpg";
 import sauceMild from "../images/mildhomepg1.jpg";
 import sauceSpicy from "../images/spicyhomepg1.jpg";
 import jerkCookout from "../images/Jerk_chicken_july_05.jpg";
-import jerkPork from "../images/bbqjerkchicgrill.jpg";
 import homeBanner from "../images/banner.jpg";
 
 function handleScriptLoad() {
