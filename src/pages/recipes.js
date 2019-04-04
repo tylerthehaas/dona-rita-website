@@ -184,6 +184,13 @@ function PressPage() {
           </p>
         </Recipe>
         <Recipe title="Jerk Seafood, Vegetables, Jackfruit and Tofu">
+          <blockquote>
+            I steamed some lobster tails, and dipped them in some melted butter
+            that I had added Caybana Moon Spicy Jerk Sauce and Marinade to and
+            it was great!!! I turned my rather bland lobster tails into a tasty
+            Caribbean delicacy.
+            <span> &#8212; Nate S., Boston, MA.</span>
+          </blockquote>
           <p>
             <strong>Directions:</strong> Place seafood, vegetables, jackfruit or
             tofu in either a zip-top bag, or in an airtight and liquid-tight
