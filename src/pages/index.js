@@ -10,8 +10,7 @@ import { Banner } from "../components/Banner/Banner";
 import { FakeImg } from "../components/FakeImg/FakeImg";
 
 import pulledJerkChicken from "../images/pulled-jerk-chicken.jpg";
-import sauceMild from "../images/mildhomepg1.jpg";
-import sauceSpicy from "../images/spicyhomepg1.jpg";
+import twins from "../images/twins.jpg";
 import jerkCookout from "../images/Jerk_chicken_july_05.jpg";
 import homeBanner from "../images/banner.jpg";
 import jerkPork from "../images/bbqjerkchicgrill.jpg";
@@ -80,21 +79,14 @@ function IndexPage({ data, location }) {
 
         <div className="grid">
           <div className="gallery fake-img-group">
-            <div className="col fluid md-7 lg-6 lg-push-1 fake-img-wrapper">
+            <div className="col fluid md-7 lg-5 lg-push-1 fake-img-wrapper">
               <FakeImg className="-three-x-two" img={pulledJerkChicken} />
             </div>
 
-            <div className="col fluid md-3 fake-img-wrapper narrow">
+            <div className="col fluid md-7 lg-5 lg-push-1 fake-img-wrapper">
               <FakeImg
-                className="-two-x-three"
-                img={sauceMild}
-                style={{ backgroundSize: "contain" }}
-              />
-            </div>
-            <div className="col fluid md-3 fake-img-wrapper narrow">
-              <FakeImg
-                className="-two-x-three"
-                img={sauceSpicy}
+                className="-three-x-two"
+                img={twins}
                 style={{ backgroundSize: "contain" }}
               />
             </div>
