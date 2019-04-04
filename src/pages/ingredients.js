@@ -17,12 +17,20 @@ function IngredientsPage() {
           <h1 className="col -block md-push-1 lg-push-2 title">Ingredients.</h1>
         </div>
 
-        <div className="grid" style={{ maxWidth: "100%" }}>
-          <div className="col fluid md-7 md-push-1 lg-6 lg-push-2">
-            <FakeImg className="-three-x-two -label" img={mildLabel} />
+        <div className="grid">
+          <div className="col fluid md-10 lg-10 lg-push-1">
+            <FakeImg
+              className="-three-x-two -label"
+              img={mildLabel}
+              style={{ backgroundSize: "contain" }}
+            />
           </div>
-          <div className="col fluid md-7 md-push-1 lg-6 lg-push-2">
-            <FakeImg className="-three-x-two -label" img={spicyLabel} />
+          <div className="col fluid md-10 lg-10 lg-push-1">
+            <FakeImg
+              className="-three-x-two -label"
+              img={spicyLabel}
+              style={{ backgroundSize: "contain" }}
+            />
           </div>
         </div>
       </Section>
