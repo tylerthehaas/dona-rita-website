@@ -44,7 +44,7 @@ function PressPage() {
             flavorful and spicy! I have served jerk chicken and pork, using
             Caybana Moon’s Jerk Sauce and Marinade, to many of our friends, and
             they love it too! Just can’t get enough of it!!!
-            <span> &#8212; Barb W., Lynden, WA</span>
+            <span> &#8212; Barb W, Lynden, WA</span>
           </blockquote>
           <p>
             Typically, jerk chicken is prepared by using dark meat pieces such
@@ -90,6 +90,18 @@ function PressPage() {
           </p>
         </Recipe>
         <Recipe title="Jerk Wings and Drumettes">
+          <blockquote>
+            Talk about a flavor explosion in your mouth!!! I love your Caybana
+            Moon Spicy Jerk Sauce and Marinade!!! I was looking for a new,
+            flavorful sauce to use on chicken thighs and chicken Wings. I made a
+            batch of jerk chicken using Caybana Moon’s Spicy Jerk Sauce and
+            Marinade. I marinated the chicken thighs in your sauce for about 8
+            hours, and then cooked them in my smoker, and they turned-out so
+            well, that I decided to serve-up some spicy jerk wings at my Super
+            Bowl party. Man, your Caybana Moon Spicy Jerk Sauce and Marinade is
+            like having a party in a bottle!!!
+            <span> &#8212; John W, Bellingham, WA</span>
+          </blockquote>
           <p>
             Caybana Moon Jerk Sauce and Marinade is the perfect choice for
             making the best wings you’ve ever had!
@@ -131,6 +143,22 @@ function PressPage() {
           </p>
         </Recipe>
         <Recipe title="Pulled Jerk Pork">
+          <blockquote>
+            I’m a Southern Girl, so naturally, I had to make some pulled pork
+            sandwiches with your Caybana Moon Mild Jerk Sauce and Marinade at
+            our cook out. I don’t like spicy-hot foods, so I decided to try your
+            Caybana Moon Mild Jerk Sauce and Marinade. I marinated a pork butt,
+            that I cut-up into smaller chunks, in a large zip-top bag with lots
+            of Caybana Moon Mild Jerk Sauce and Marinade. I put it in the fridge
+            for around 24 hours, and then I cooked it in my smoker in the back
+            yard. The meat just fell apart. I then mixed-in some fresh Caybana
+            Moon Mild Jerk Sauce and Marinade, and put the jerked pork on some
+            nice, soft potato bread rolls. I made my favorite Carolina coleslaw,
+            and served it beside the pulled pork sandwiches. My oh my was it
+            ever good!!! I served this to my aunt, uncle and cousins, and they
+            had to have seconds they liked it so much!!!
+            <span> &#8212; Shelby H., Charlotte, NC</span>
+          </blockquote>
           <p>
             You can also pull and shred the pork butt, after you’ve smoked it,
             and toss it with lots of Caybana Moon Jerk Sauce and Marinade. It is

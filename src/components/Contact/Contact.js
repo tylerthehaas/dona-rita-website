@@ -8,7 +8,7 @@ export function Contact() {
       </div>
 
       <div className="grid">
-        <p className="col sm-12 md-5 lg-3 md-push-1 lg-push-3 contact">
+        <div className="col sm-12 md-5 lg-3 md-push-1 lg-push-3 contact">
           drop us a line at
           <a
             href="mailto:carolinapacificfoods@protonmail.com"
@@ -28,7 +28,7 @@ export function Contact() {
             <br />
             Lynden, WA 98264
           </address>
-        </p>
+        </div>
 
         <div className="col fluid md-3 lg-2 md-push-1 lg-push-2 button-group">
           <a href="https://twitter.com/CaybanaM" className="button -block">
