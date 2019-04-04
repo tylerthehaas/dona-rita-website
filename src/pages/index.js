@@ -10,8 +10,8 @@ import { Banner } from "../components/Banner/Banner";
 import { FakeImg } from "../components/FakeImg/FakeImg";
 
 import pulledJerkChicken from "../images/pulled-jerk-chicken.jpg";
-import sauceMild from "../images/sauce-mild.jpg";
-import sauceSpicy from "../images/sauce-spicy.jpg";
+import sauceMild from "../images/mildhomepg1.jpg";
+import sauceSpicy from "../images/spicyhomepg1.jpg";
 import jerkCookout from "../images/Jerk_chicken_july_05.jpg";
 import jerkPork from "../images/bbqjerkchicgrill.jpg";
 import homeBanner from "../images/banner.jpg";
@@ -71,7 +71,7 @@ function IndexPage({ data, location }) {
             </p>
 
             <p>
-              <Link to="/story" className="button">
+              <Link to="/about" className="button">
                 Read our story
               </Link>
             </p>
@@ -85,10 +85,18 @@ function IndexPage({ data, location }) {
             </div>
 
             <div className="col fluid md-3 fake-img-wrapper">
-              <FakeImg className="-two-x-three" img={sauceMild} />
+              <FakeImg
+                className="-two-x-three"
+                img={sauceMild}
+                style={{ backgroundSize: "contain" }}
+              />
             </div>
             <div className="col fluid md-3 fake-img-wrapper">
-              <FakeImg className="-two-x-three" img={sauceSpicy} />
+              <FakeImg
+                className="-two-x-three"
+                img={sauceSpicy}
+                style={{ backgroundSize: "contain" }}
+              />
             </div>
           </div>
         </div>

@@ -23,7 +23,7 @@ function PressPage() {
           <h1 className="col -block md-push-1 lg-push-2 title">
             Recipes.
             <br />
-            <span className="salmon">How to Prepare Jerk!</span>
+            <span className="sub-title">How to Prepare Jerk!</span>
           </h1>
         </div>
       </Section>
@@ -91,12 +91,29 @@ function PressPage() {
         </Recipe>
         <Recipe title="Jerk Wings and Drumettes">
           <p>
-            You can also remove the skin and bones and shred or pull the chicken
-            and toss it with lots of Caybana Moon Jerk Sauce and Marinade. You
-            can then make the tastiest Jerk Chicken sandwiches, by serving the
-            pulled Jerk Chicken on rolls with some spicy, crisp coleslaw!
-            Caybana Moon Jerk Chicken tastes great on top of a fresh, crispy
-            tossed salad too! Use your imagination and try it any way you like!
+            Caybana Moon Jerk Sauce and Marinade is the perfect choice for
+            making the best wings you’ve ever had!
+          </p>
+
+          <p>
+            <span className="bold">Directions:</span> Place chicken wings or
+            drumettes in either a zip-top bag, or in an airtight and
+            liquid-tight container. Did you know that drumettes are the meatiest
+            portion of the wing, and have lots of flavor, so give them a try!
+            Add a liberal amount of Caybana Moon Jerk Sauce and Marinade to the
+            chicken. Remove as much air from your bag or container as you can,
+            and then squish or shake the marinade around the chicken to coat it
+            well. Put the bag of chicken in a dish or pan with sides to catch
+            any leaks while in the refrigerator! Place in the refrigerator for 4
+            to 24 hours, or longer for a richer flavor. Squish or shake the
+            container of chicken a couple times a day while it is marinating.
+            Discard any marinade that contacted raw meat. Preheat oven to 450
+            degrees F (230 degrees C). Line a baking sheet with aluminum foil
+            and spray with cooking spray. Place chicken wings or drumettes on
+            prepared baking sheet, and bake in the preheated oven for 25
+            minutes. Juices should run clear when meat is cooked properly. Serve
+            with fresh Caybana Moon Jerk Sauce and Marinade, and dip each bite
+            into the sauce and enjoy!
           </p>
         </Recipe>
         <Recipe title="Jerk Pork" img={jerkPork}>

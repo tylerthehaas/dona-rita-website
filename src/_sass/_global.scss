@@ -4,6 +4,14 @@
 	box-sizing: border-box;
 }
 
+h1, h2 {
+	color: $colorBlue !important;
+
+	span.sub-title {
+		color: $colorPurple;
+	}
+}
+
 body {
 	font-family: $fontDefault;
 	font-size: 14px;
@@ -24,7 +32,7 @@ body {
 	}
 }
 ::selection {
-	background-color: $colorSalmon;
+	background-color: $colorPurple;
 	color: white;
 }
 address {
@@ -37,7 +45,7 @@ blockquote {
 	font-style: italic;
 	color: #555555;
 	padding: 1.2em 30px 1.2em 75px;
-	border-left: 8px solid $colorSalmon;
+	border-left: 8px solid $colorPurple;
 	line-height: 1.6;
 	position: relative;
 	background: #ededed;
@@ -46,7 +54,7 @@ blockquote {
 blockquote::before {
 	font-family: Arial;
 	content: '\201C';
-	color: $colorSalmon;
+	color: $colorPurple;
 	font-size: 4em;
 	position: absolute;
 	left: 10px;
@@ -582,7 +590,6 @@ img {
 	background-position: center center;
 	margin-bottom: 20px;
 	position: relative;
-	// background-color: $colorSalmon;
 
 	@include medium {
 		margin-bottom: 0;
@@ -595,7 +602,6 @@ img {
 		left: 0;
 		right: 0;
 		bottom: 0;
-		background-color: $colorSalmon;
 	}
 
 	&.is-loaded::after {
@@ -732,7 +738,7 @@ button {
 	}
 
 	&:not(:disabled):hover {
-		background-color: $colorSalmon;
+		background-color: $colorPurple;
 		text-decoration: none;
 	}
 
@@ -750,7 +756,7 @@ button {
 	padding: 20px;
 	margin-bottom: 20px;
 	color: white;
-	background-color: $colorSalmon;
+	background-color: $colorPurple;
 
 	&.postcode-shop {
 		background-color: $colorBlue;
@@ -807,7 +813,7 @@ button {
 
 		&:not(:disabled):hover {
 			background-color: white;
-			color: $colorSalmon;
+			color: $colorPurple;
 		}
 	}
 }
@@ -868,7 +874,7 @@ button {
 	height: 100vh;
 	left: 0;
 	top: 0;
-	background: $colorSalmon;
+	background: $colorPurple;
 	display: flex;
 	align-items: center;
 	justify-content: center;

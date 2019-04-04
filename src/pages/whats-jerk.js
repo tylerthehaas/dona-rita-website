@@ -13,7 +13,7 @@ function StoryPage() {
       <TitleAndMetaTags title="Story" pathname="story" />
       <Section>
         <div className="grid">
-          <h1 className="col -block md-push-1 lg-push-2 title">Whats Jerk?</h1>
+          <h1 className="col -block md-push-1 lg-push-2 title">What's Jerk?</h1>
         </div>
         <div className="grid">
           <div className="col fluid md-7 md-push-1 lg-6 lg-push-2">

@@ -16,7 +16,7 @@ function StoryPage() {
           <h1 className="col -block md-push-1 lg-push-2 title">
             This is our story.
             <br />
-            <span className="salmon">A family adventure.</span>
+            <span className="sub-title">A family adventure.</span>
           </h1>
         </div>
         <div className="grid">
@@ -25,11 +25,11 @@ function StoryPage() {
           </div>
         </div>
         <div className="grid">
-          <div className="col md-7 lg-5 md-push-1 lg-push-3">
+          <div className="col fluid md-7 md-push-1 lg-6 lg-push-2">
             <h2>Our Love for Jerk Sauce</h2>
           </div>
 
-          <div className="col md-7 lg-6 md-push-1 lg-push-2">
+          <div className="col fluid md-7 md-push-1 lg-6 lg-push-2">
             <p className="measure">
               Our family has traveled throughout the Caribbean, for over 20
               years, and love to explore different cultures through their foods.
@@ -41,24 +41,19 @@ function StoryPage() {
               aficionados search for new, exciting jerk sauces. Jerk has a
               dedicated, international following for sure.
             </p>
-            <p>
-              <Link to="/ingredients" className="button">
-                Ingredients
-              </Link>
-            </p>
           </div>
         </div>
       </Section>
 
       <Section className="-white">
         <div className="grid">
-          <div className="col md-push-1 lg-push-3">
+          <div className="col fluid md-7 md-push-1 lg-6 lg-push-2">
             <h2>A Labor of Love</h2>
           </div>
         </div>
 
         <div className="grid">
-          <div className="col md-7 lg-5 md-push-1 lg-push-3">
+          <div className="col fluid md-7 md-push-1 lg-6 lg-push-2">
             <p className="measure">
               During our travels, we tasted fiery hot jerk chicken, sweet and
               savory jerk chicken, and every kind of jerk chicken on the jerk
