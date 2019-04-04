@@ -115,8 +115,8 @@ function IndexPage({ data, location }) {
               Buy our amazing sauces at these retailers!
             </p>
             <p className="measure-wider">
-              <Link to="/stockists" className="button">
-                See Stores
+              <Link to="/buy" className="button">
+                Buy Now!
               </Link>
             </p>
           </div>
