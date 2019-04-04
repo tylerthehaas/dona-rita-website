@@ -57,7 +57,7 @@ export class Nav extends React.Component {
           </a>
           {this.renderLinks(links, this.handleClose)}
         </nav>
-        <nav className="main-nav -desktop col md-10 md-push-1">
+        <nav className="main-nav -desktop col md-9 md-push-2">
           {this.renderLinks(links)}
         </nav>
       </div>
