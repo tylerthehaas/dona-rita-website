@@ -1,6 +1,7 @@
 import React from "react";
 
-import bbqChicken from "../images/bbqjerkchic-waiter.jpg";
+import bbqChickenWaiter from "../images/bbqjerkchic-waiter.jpg";
+import bbqChicken from "../images/bbqchicken.jpg";
 import { TitleAndMetaTags } from "../components/TitleAndMetaTags/TitleAndMetaTags";
 import { Section } from "../components/Section/Section";
 import { Contact } from "../components/Contact/Contact";
@@ -20,7 +21,7 @@ function StoryPage() {
         </div>
         <div className="grid">
           <div className="col fluid md-7 md-push-1 lg-6 lg-push-2">
-            <FakeImg className="-square" img={bbqChicken} />
+            <FakeImg className="-square" img={bbqChickenWaiter} />
           </div>
         </div>
         <div className="grid">
@@ -48,6 +49,16 @@ function StoryPage() {
         <div className="grid">
           <div className="col fluid md-7 md-push-1 lg-6 lg-push-2">
             <h2>A Labor of Love</h2>
+          </div>
+        </div>
+
+        <div className="grid">
+          <div className="col fluid md-7 md-push-1 lg-6 lg-push-2">
+            <FakeImg
+              className="-square"
+              img={bbqChicken}
+              style={{ transform: "rotate(90deg)" }}
+            />
           </div>
         </div>
 

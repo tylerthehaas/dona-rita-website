@@ -3,6 +3,9 @@ import { Link } from "gatsby";
 
 import { BurgerIcon } from "../../icons/BurgerIcon";
 import { CrossIcon } from "../../icons/CrossIcon";
+import { FakeImg } from "../FakeImg/FakeImg";
+
+import logo from "../../images/logo.jpg";
 
 export class Nav extends React.Component {
   constructor(props) {
@@ -31,7 +34,7 @@ export class Nav extends React.Component {
       { name: "Buy", to: "/buy" }
     ];
     return (
-      <div className="grid">
+      <div className="grid" style={{ display: "flex", alignItems: "center" }}>
         <a
           className="mobile-menu -open"
           onClick={this.handleOpen}
@@ -57,7 +60,14 @@ export class Nav extends React.Component {
           </a>
           {this.renderLinks(links, this.handleClose)}
         </nav>
-        <nav className="main-nav -desktop col md-9 md-push-2">
+        <div className="col md-3">
+          <FakeImg
+            className="-three-x-two"
+            img={logo}
+            style={{ backgroundSize: "100px" }}
+          />
+        </div>
+        <nav className="main-nav -desktop col md-9">
           {this.renderLinks(links)}
         </nav>
       </div>

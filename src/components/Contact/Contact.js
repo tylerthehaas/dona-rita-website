@@ -1,5 +1,8 @@
 import React from "react";
 
+import { FakeImg } from "../FakeImg/FakeImg";
+import logo from "../../images/logo.jpg";
+
 export function Contact() {
   return (
     <div>
@@ -8,7 +11,14 @@ export function Contact() {
       </div>
 
       <div className="grid">
-        <div className="col sm-12 md-5 lg-3 md-push-1 lg-push-3 contact">
+        <div className="col md-3 lg-3">
+          <FakeImg
+            className="-three-x-two -small"
+            img={logo}
+            style={{ backgroundSize: "contain" }}
+          />
+        </div>
+        <div className="col sm-12 md-5 lg-3 contact">
           drop us a line at
           <a
             href="mailto:carolinapacificfoods@protonmail.com"
