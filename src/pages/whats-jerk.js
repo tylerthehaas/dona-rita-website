@@ -1,28 +1,25 @@
 import React from "react";
 import { Link } from "gatsby";
 
-import bbqChicken from "../images/20180702_211656.jpg";
-import { TitleAndMetaTags } from "../components/TitleAndMetaTags/TitleAndMetaTags";
-import { Section } from "../components/Section/Section";
+import { Banner } from "../components/Banner/Banner";
 import { Contact } from "../components/Contact/Contact";
-import { FakeImg } from "../components/FakeImg/FakeImg";
+import { Section } from "../components/Section/Section";
+import { TitleAndMetaTags } from "../components/TitleAndMetaTags/TitleAndMetaTags";
+
+import hotCoals from "../images/hotcoals.jpg";
 
 function StoryPage() {
   return (
     <div className="main">
       <TitleAndMetaTags title="Story" pathname="story" />
+      <Banner
+        style={{ backgroundSize: "100%", padding: "12.75% 0" }}
+        img={hotCoals}
+        mobileImg={hotCoals}
+      />
       <Section>
         <div className="grid">
           <h1 className="col -block md-push-1 lg-push-2 title">What's Jerk?</h1>
-        </div>
-        <div className="grid">
-          <div className="col fluid md-7 md-push-1 lg-6 lg-push-2">
-            <FakeImg
-              className="-square"
-              img={bbqChicken}
-              style={{ transform: "rotate(90deg)" }}
-            />
-          </div>
         </div>
         <div className="grid">
           <div className="col md-8 lg-6 lg-push-2">

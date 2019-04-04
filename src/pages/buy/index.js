@@ -45,7 +45,7 @@ function ShopsPage({ data }) {
           <h1 className="col -block md-push-1 lg-push-2 title">
             Where to buy
             <br />
-            <span className="salmon">
+            <span className="sub-title">
               our delicious
               <br />
               sauces.
