@@ -8,7 +8,7 @@ import { FakeImg } from "../../components/FakeImg/FakeImg";
 
 import { createGroupedArray } from "../../utils/createGroupedArray";
 
-import sauce from "../../images/sauce-mild.jpg";
+import twins from "../../images/twins.jpg";
 
 function Shop({ className, shop }) {
   return (
@@ -100,7 +100,11 @@ function ShopsPage({ data }) {
 
         <div className="grid">
           <div className="col fluid md-7 md-push-1 lg-6 lg-push-2">
-            <FakeImg className="-three-x-two" img={sauce} />
+            <FakeImg
+              className="-three-x-two"
+              img={twins}
+              style={{ backgroundSize: "contain" }}
+            />
           </div>
         </div>
       </Section>

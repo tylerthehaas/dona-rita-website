@@ -11,7 +11,7 @@ import akemyMory from "../images/akemy-mory.jpg";
 import bbqImg from "../images/bbqcaribbean.jpg";
 import jerkPork from "../images/bbqjerkchicgrill.jpg";
 import jerkRibs from "../images/jerk-ribs.jpg";
-import sauce from "../images/sauce-mild.jpg";
+import twins from "../images/twins.jpg";
 import pulledJerkChicken from "../images/pulled-jerk-chicken.jpg";
 import grillAssortment from "../images/grill-assortment.jpg";
 
@@ -32,7 +32,11 @@ function PressPage() {
       <Banner img={bbqImg} mobileImg={bbqImg} />
 
       <Section>
-        <Recipe title="Jerk Chicken" img={sauce}>
+        <Recipe
+          title="Jerk Chicken"
+          img={twins}
+          imgStyles={{ backgroundSize: "contain" }}
+        >
           <blockquote>
             I had never even heard of jerk chicken until I tried your jerk
             chicken with Caybana Moon’s Mild Jerk Sauce and Marinade! The
