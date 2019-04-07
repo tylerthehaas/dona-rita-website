@@ -30,6 +30,9 @@ function Shop({ className, shop }) {
             {shop.webpage}
           </a>
         )}
+        <a href={`mailto: ${shop.email}`} style={{ display: "block" }}>
+          {shop.email}
+        </a>
         <a
           href={`https://www.google.com/maps/dir/?api=1&destination=${
             shop.postcode
@@ -215,6 +218,7 @@ export const pageQuery = graphql`
           frontmatter {
             address
             area
+            email
             name
             postcode
             url
