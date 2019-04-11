@@ -17,15 +17,15 @@ export function TitleAndMetaTags({ url, pathname, title, description }) {
       <meta name="twitter:image" content={`${url}/social/hero-1.jpg`} />
       <meta name="twitter:title" content={title} />
       <meta name="twitter:description" content={description} />
-      <meta name="twitter:site" content="@oidonarita" />
+      <meta name="twitter:site" content="@CaybanaM" />
       <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:creator" content="@oidonarita" />
+      <meta name="twitter:creator" content="@CaybanaM" />
     </Helmet>
   );
 }
 
 TitleAndMetaTags.defaultProps = {
-  url: "https://donarita.co.uk",
+  url: "https://carolinapacificfoods.com",
   pathname: "",
   title: "Caybana Moon",
   description: "Exotic. Bold. Sauces."
